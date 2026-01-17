@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Credentials and secrets
+**/credentials/*.json
+**/credentials/*.txt
+**/credentials/*.pem
+**/credentials/*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+botanical_auto_uploader/data/ai_results/
+botanical_auto_uploader/data/exports/
+botanical_auto_uploader/downloads/
+botanical_auto_uploader/tmp/
+*.log
+
